@@ -1,0 +1,32 @@
+{
+  "name": "productbox_otp_generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laiba-saeed/Productbox_OTP_Generator/issues"
+  },
+  "homepage": "https://github.com/laiba-saeed/Productbox_OTP_Generator#readme",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "chai": "^4.3.7",
+    "chai-http": "^4.3.0",
+    "convict": "^6.2.4",
+    "express": "^4.18.2",
+    "moment": "^2.29.4",
+    "mysql2": "^3.2.0",
+    "nodemon": "^2.0.22",
+    "otp-generator": "^4.0.1",
+    "sequelize": "^6.30.0",
+    "sequelize-cli": "^6.6.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
+}
